@@ -1,0 +1,62 @@
+#table-manage-employ {
+    border:1px solid black !important;
+    margin-right: 30px;
+
+    margin-top: 40px;
+}
+
+
+
+.error_message_employ{
+    font-size: 22px;
+    color: red;
+}
+
+
+#table-manage-employ th {
+    border:1px solid black !important;
+    padding: 20px;
+}
+
+#table-manage-employ td {
+    border:1px solid black !important;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+ a{
+    text-decoration: none;
+    color: #542144;
+}
+
+
+.icon_employ{
+ display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+#wp_employ_loader{
+    background-color: lightgreen;
+
+    width: 200px;
+
+    height: 38px;
+
+    border-radius: 3px;
+
+    vertical-align: middle;
+
+    text-align: center;
+
+    margin: 35px;
+
+    font-size: 22px;
+
+    padding-top: 10px;
+
+    display: none;
+
+
+}

@@ -1,0 +1,35 @@
+#employ_form input{
+    width:220px;
+    height: 40px;
+    background-color: #fbfbfb;
+
+    border: 1px ridge  black;
+
+    border-radius: 4px;
+}
+
+
+
+#employ_form input[type=submit]{
+    width:120px;
+    margin-right:40%;
+    background-color: whitesmoke;
+    border-radius: 6px;
+
+}
+
+
+#success_employ{
+    color: green;
+    font-size: 22px;
+    padding: 40px;
+
+}
+
+.error_message_employ{
+    color: red;
+    font-size: 20px;
+}
+
+#captcha_employ{
+}
