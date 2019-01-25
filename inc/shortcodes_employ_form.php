@@ -99,8 +99,8 @@ function wp_employ_form()
 
 
                 <tr>
-                    <td><label for="experience_user"> میزان تجربه کاری :</label></td>
-                    <td><input type="text" id="experience_user" name="experience_user"></td>
+                    <td><label for="experience_user"> میزان تجربه کاری(سال) :</label></td>
+                    <td><input type="number" id="experience_user" name="experience_user"></td>
                 </tr>
 
                 <tr>

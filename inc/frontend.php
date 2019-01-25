@@ -91,6 +91,10 @@ function CheckOut_experiecne_employ(){
             die('سابقه را به صورت  درست  وارد کنید');
         }
 
+        if($experience_user>=100){
+            die('این مقدار منطقی نیست');
+        }
+
 
 
 
