@@ -71,7 +71,7 @@ function employ_user_delete(){
 
 
 
-            $message=array('text'=>"این سالن با موفقیت پاک شد .",'result'=>'1');
+            $message=array('text'=>"این کاربر با موفقیت پاک شد .",'result'=>'1');
 
             die(json_encode($message));
 

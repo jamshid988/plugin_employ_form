@@ -202,3 +202,22 @@ function employ_bookmarks_page(){
     }
 
 }
+//end function
+
+
+   function employ_shortcode_page(){
+
+    echo"
+
+<div id='shortcode_employ_lacation'>
+عبارت زیر را در برگه یا پست مورد نظر قرار دهید  :
+</div>
+
+
+    <lable id='lable_shortcode_employ_lacation'>[employ_form]</lable>
+    
+    
+    ";
+   }
+
+

@@ -33,7 +33,7 @@ function employ_create_table()
 
         $resquery = $wpdb->query($query);
 
-        if($resquery==0){
+        if($resquery===0){
             die('مشکل در نصب پلاگین');
         }
 

@@ -48,6 +48,8 @@ jQuery(document).ready(function($) {
 
 
 
+
+
     $('.emoloy_user_selected').on('change', function () {
         if (!confirm("برای  تغییر وضعیت  اطمینان دارید ؟ ")) {
             return false;
@@ -84,3 +86,4 @@ jQuery(document).ready(function($) {
     });
 
 });
+//end function
