@@ -1,3 +1,17 @@
+
+#container_employ_form{
+
+    direction: rtl;
+    float: right;
+
+}
+
+#employ_form{
+    direction: rtl;
+    float: right;
+}
+
+
 #employ_form input{
     width:220px;
     height: 40px;

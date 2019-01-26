@@ -3,7 +3,7 @@
 function employ_manage_page()
 {
     global $wpdb, $table_prefix;
-
+echo"<div id='container_employ_manage'>";
 
     if (isset($_GET['view'])) {
 
@@ -95,6 +95,8 @@ function employ_manage_page()
 
 
     }
+
+    echo"</div>";
 
 }
 

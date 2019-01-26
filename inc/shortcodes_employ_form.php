@@ -25,7 +25,11 @@ function wp_employ_form()
     if (isset($_POST['sub_employ'])) {
 
 
+
+
         session_start();
+
+        echo"<div id='container_employ_form'>";
 
         $name_user =   CheckOut_name_employ($_POST['name_user'],'نام');
 
@@ -39,8 +43,6 @@ function wp_employ_form()
         $nationalcode =  verify_employ_nationalcode($_POST['nationalcode']);
 
 
-        $file_name = upload_file_emoloy($_FILES['resume_user'],'رزومه');
-
 //        var_dump($_SESSION["captcha"]);
 
 //        var_dump($_POST["captcha_employ"]);
@@ -48,18 +50,17 @@ function wp_employ_form()
         if(!isset($_POST["captcha_employ"]) or  empty($_POST["captcha_employ"])){
             die('کد امنیتی را وارد کنید');
         }
-        else
-        {
+
             if($_POST["captcha_employ"]!=$_SESSION["captcha"])
             {
                 die('<div class="error_message_employ">' . 'کد امنیتی را اشتباه وارد کرده اید. دوباره تلاش کنید' . '</div>');
 
             }
-            else
-            {
 
-            }
-        }
+        $file_name = upload_file_emoloy($_FILES['resume_user'],'رزومه');
+
+
+
 
         //end if(!isset($_POST["captcha_employ"]) or  empty($_POST["captcha_employ"]))
 
@@ -71,6 +72,7 @@ function wp_employ_form()
 
 
 
+        echo"</div>";
 
         }
 

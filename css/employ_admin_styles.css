@@ -1,3 +1,12 @@
+
+
+
+#container_employ_manage{
+    direction: rtl;
+    float: right;
+}
+
+
 #table-manage-employ {
     border:1px solid black !important;
     margin-right: 30px;
